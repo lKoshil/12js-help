@@ -38,3 +38,36 @@
     //}
 //})
 
+//function fethData(url) {
+  //return new Promise((resolve, reject) => {
+    //setTimeout(() => {
+      //if (Math.random() < 0.8) {
+        //resolve({user: 'Peter'})
+      //} else {
+        //reject(new Error('invalid'))
+      //}
+    //}, 3000)
+  //})
+//}
+//fetchDAta('http://google.com')
+  //  .then((data) => console.log('Данные -', data))
+    //.catch((err) => console.error('Ошибка -', err.message))
+    //.finally(() => console.log('Конец операции'))
+
+//fethData('url-1')
+  //.then((data1) => {
+    //console.log('запрос 1', data1)
+    //return fethData('url-2')
+  //})
+  //.then((data2) => {
+    //console.log('запрос 2', data2)
+    //return fethData('url-3')
+  //})
+  //.then((data3) => console.log('запрос 3', data3))
+  //.catch((err) => console.error('Ошибка -', err.message))
+
+//Promise.all([fetchData("url-1"), fetchData("url-2"), fetchData("url-3")])
+    //.then((res) => console.log('все данные:', res))
+    //.catch((err) => console.error('Ошибка -', err.message))
+            
+
